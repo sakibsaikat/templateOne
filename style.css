@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-section{
+    background-color: yellow;
+    background: linear-gradient(rgb(232, 140, 2),yellow);
+    padding-bottom: 130px;
+}
+
+.bt{
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+.bt-1{
+    background-color: rgb(223, 15, 15);
+}
+.bt-2{
+    background-color: rgb(238, 63, 0);
+}
+.bt-3{
+    background-color: rgb(95, 95, 228);
+}
+
+.search-bar{
+    padding: 10px 16px;
+    outline: none;
+    border-radius: 12px;
+    border: none;
+}
+
+.section1{
+    width: 80%;
+    /* background-color: aquamarine; */
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    position: relative;
+}
+.s-icon{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+
+.section2{
+    display: flex;
+    width: 80%;
+    padding: 10px 30px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    color: white;
+}
+.section3{
+    display: flex;
+    width: 80%;
+    padding: 10px 30px;
+    margin: 0 auto;
+    /* background-color: rgb(18, 133, 133); */
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+    
+}
+.logo h5{
+    color: black;
+    font-size: 16px;
+    /* font-family: 'Pacifico', cursive; */
+
+}
+
+nav ul{
+    display: flex;
+    margin-top: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+nav ul li:hover{
+    background-color: rgb(223, 15, 15);
+    color: white;
+}
+nav ul li:hover a{
+    color: white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.section4{
+
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    /* background-color: rgb(24, 63, 63); */
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.card{
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    padding: 30px 12px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: -150px;
+}
+
+.card h2{
+    color: rgba(0, 0, 0, 0.621);
+}
+
+.card p{
+    color: rgba(0, 0, 0, 0.422);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card .btn-read{
+    padding: 10px 16px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.content1{
+    width: 90%;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parts{
+    width: 170px;
+    display: flex;
+    /* justify-content: center; */
+    background-color: white;
+    background: linear-gradient(white,rgb(214, 213, 213));
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(222, 221, 221);
+    /* box-shadow: x-axis y-axis blur color; */
+}
+.parts p{
+    margin-left: 5px;
+}
+
+.part-1{
+    display: flex;
+}
+.description{
+    width: 400px;
+    padding: 20px;
+}
+.description p{
+    color: rgba(0, 0, 0, 0.525);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.part-1 img{
+    border-radius: 5px;
+}
+
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(242, 239, 239);
+    padding: 50px 30px;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item p{
+    margin-left: 3px;
+}
+
+.content3{
+    background-color: rgb(21, 20, 20);
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.black-card{
+    /* background-color: aquamarine; */
+    padding: 30px 20px;
+    width: 200px;
+    border-right: 1px solid rgba(255, 255, 255, 0.292);
+    padding-left: 50px;
+}
+
+.black-card2{
+    /* background-color: aquamarine; */
+    padding: 30px 20px;
+    width: 200px;
+    padding-left: 50px;
+}
+
+.black-card p,.black-card2 address{
+    color: rgba(255, 255, 255, 0.569);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.black-card h2,.black-card2 h2{
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content5{
+    padding: 30px;
+    background-color: black;
+    color: rgb(162, 161, 161);
+}
